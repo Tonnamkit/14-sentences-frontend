@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import { io } from "socket.io-client"
 import { useEffect, useState } from "react"
 
-const socket = io("http://localhost:8080")
+const socket = io("https://one4-sentences-backend.onrender.com")
 
 type roomUsersType = {
   id: string
