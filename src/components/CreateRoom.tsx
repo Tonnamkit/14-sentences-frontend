@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import io from 'socket.io-client'
 
-const socket = io('https://vercel.com/tonnamkit/14-sentences-frontend')
+const socket = io('https://one4-sentences-backend.onrender.com/')
 
 const CreateRoom = () => {
   const [username, setUsername] = useState('')

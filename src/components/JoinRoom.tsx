@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import io from 'socket.io-client'
 
-const socket = io('http://localhost:8080')
+const socket = io('https://one4-sentences-backend.onrender.com/')
 
 const JoinRoom = () => {
   const [username, setUsername] = useState('')
