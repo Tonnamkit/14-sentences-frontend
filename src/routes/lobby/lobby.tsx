@@ -2,7 +2,9 @@ import Lobby from "../../components/Lobby"
 
 const LobbyPage = () => {
   return (
-    <Lobby />
+    <div>
+      <Lobby />
+    </div>
   )
 }
 
